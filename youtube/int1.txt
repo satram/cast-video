@@ -1,0 +1,828 @@
+
+Capturing halted
+(?)
+Tr@n$p0rt
+1 of 317
+	ID	Source Type	Description
+	309	SOCKET
+309: SOCKET
+Start Time: 2016-02-04 06:19:55.187
+
+t=   76 [st=    0]  SSL_SOCKET_BYTES_SENT
+                    --> byte_count = 86
+t=   76 [st=    0]  SOCKET_BYTES_SENT
+                    --> byte_count = 115
+t=   88 [st=   12]  SOCKET_BYTES_RECEIVED
+                    --> byte_count = 33
+t=   88 [st=   12]  SSL_SOCKET_BYTES_RECEIVED
+                    --> byte_count = 4
+t=   89 [st=   13]  SOCKET_BYTES_RECEIVED
+                    --> byte_count = 111
+t=   89 [st=   13]  SSL_SOCKET_BYTES_RECEIVED
+                    --> byte_count = 82
+t= 5089 [st= 5013]  SSL_SOCKET_BYTES_SENT
+                    --> byte_count = 86
+                    --> hex_encoded_bytes =
+                      00 00 00 52 08 00 12 06  63 68 72 6F 6D 65 1A 0A      R. ..chrome..
+                      72 65 63 65 69 76 65 72  2D 30 22 27 75 72 6E 3A   receiver-0"'urn:
+                      78 2D 63 61 73 74 3A 63  6F 6D 2E 67 6F 6F 67 6C   x-cast:com.googl
+                      65 2E 63 61 73 74 2E 74  70 2E 68 65 61 72 74 62   e.cast.tp.heartb
+                      65 61 74 28 00 32 0F 7B  22 74 79 70 65 22 3A 22   eat( 2.{"type":"
+                      50 49 4E 47 22 7D                                  PING"}
+t= 5089 [st= 5013]  SOCKET_BYTES_SENT
+                    --> byte_count = 115
+                    --> hex_encoded_bytes =
+                      17 03 03 00 6E 00 00 00  00 00 00 01 06 B0 20 52   ... n      ... R
+                      E2 CA CD 5E 4D E2 0B A2  5D D4 44 B3 91 F2 ED D3   ...^M...].D.....
+                      A2 92 BD 18 8A 05 A9 62  B9 E3 E4 06 75 E8 9D 1C   .......b....u...
+                      4C 2C C4 3C 38 9F 7C 65  37 C7 BA FE EC B3 BB A2   L,.<8.|e7.......
+                      4D 3A 59 5C 5F 50 00 F3  0F 99 C2 FF BD 40 D1 EA   M:Y\_P ......@..
+                      FD 03 9C 53 52 34 C1 FD  0A AF AD 50 D0 FC 95 3B   ...SR4.....P...;
+                      D5 78 9D A9 40 D6 63 33  28 CF 98 59 C3 8A 95 55   .x..@.c3(..Y...U
+                      5E E8 E6                                           ^..
+t= 5094 [st= 5018]  SOCKET_BYTES_RECEIVED
+                    --> byte_count = 33
+                    --> hex_encoded_bytes =
+                      17 03 03 00 1C 00 00 00  00 00 00 02 31 5E 7A 2F   ... .      .1^z/
+                      5E 9B FE 79 52 54 AC AE  C0 23 E8 F7 00 43 32 71   ^..yRT...#.. C2q
+                      BF                                                 .
+t= 5094 [st= 5018]  SSL_SOCKET_BYTES_RECEIVED
+                    --> byte_count = 4
+                    --> hex_encoded_bytes =
+                      00 00 00 52                                           R
+t= 5095 [st= 5019]  SOCKET_BYTES_RECEIVED
+                    --> byte_count = 111
+                    --> hex_encoded_bytes =
+                      17 03 03 00 6A 00 00 00  00 00 00 02 32 36 AA F0   ... j      .26..
+                      B2 0F 72 CA 68 9A 95 B5  E0 F1 71 F3 D9 73 88 52   ..r.h.....q..s.R
+                      C1 49 8E 79 50 21 E7 09  AE 25 0C 8C 00 46 A7 89   .I.yP!...%.. F..
+                      C2 59 C3 25 31 A3 A6 74  17 93 A5 A8 66 55 CB 44   .Y.%1..t....fU.D
+                      40 7C BE CB E5 AF ED 45  DC 4E 92 E0 AC 2C 48 42   @|.....E.N...,HB
+                      8D A7 1B 5D 9C 3D C0 63  0C 12 AB 03 79 DA EE 93   ...].=.c....y...
+                      58 62 E7 DC 32 FF 97 31  D5 79 D7 E3 4C 70 0B      Xb..2..1.y..Lp.
+t= 5095 [st= 5019]  SSL_SOCKET_BYTES_RECEIVED
+                    --> byte_count = 82
+                    --> hex_encoded_bytes =
+                      08 00 12 0A 72 65 63 65  69 76 65 72 2D 30 1A 06   . ..receiver-0..
+                      63 68 72 6F 6D 65 22 27  75 72 6E 3A 78 2D 63 61   chrome"'urn:x-ca
+                      73 74 3A 63 6F 6D 2E 67  6F 6F 67 6C 65 2E 63 61   st:com.google.ca
+                      73 74 2E 74 70 2E 68 65  61 72 74 62 65 61 74 28   st.tp.heartbeat(
+                      00 32 0F 7B 22 74 79 70  65 22 3A 22 50 4F 4E 47    2.{"type":"PONG
+                      22 7D                                              "}
+t= 8875 [st= 8799]  SSL_SOCKET_BYTES_SENT
+                    --> byte_count = 149
+                    --> hex_encoded_bytes =
+                      00 00 00 91 08 00 12 0C  63 6C 69 65 6E 74 2D 32      .. ..client-2
+                      31 37 31 36 1A 0A 72 65  63 65 69 76 65 72 2D 30   1716..receiver-0
+                      22 23 75 72 6E 3A 78 2D  63 61 73 74 3A 63 6F 6D   "#urn:x-cast:com
+                      2E 67 6F 6F 67 6C 65 2E  63 61 73 74 2E 72 65 63   .google.cast.rec
+                      65 69 76 65 72 28 00 32  4C 7B 22 74 79 70 65 22   eiver( 2L{"type"
+                      3A 22 4C 41 55 4E 43 48  22 2C 22 72 65 71 75 65   :"LAUNCH","reque
+                      73 74 49 64 22 3A 35 34  31 37 38 30 30 37 2C 22   stId":54178007,"
+                      61 70 70 49 64 22 3A 22  32 33 33 36 33 37 44 45   appId":"233637DE
+                      22 2C 22 6C 61 6E 67 75  61 67 65 22 3A 22 65 6E   ","language":"en
+                      2D 55 53 22 7D                                     -US"}
+t= 8875 [st= 8799]  SOCKET_BYTES_SENT
+                    --> byte_count = 178
+                    --> hex_encoded_bytes =
+                      17 03 03 00 AD 00 00 00  00 00 00 01 07 0C 2D 42   ... .      ...-B
+                      CC 9D BD BE 41 C0 A3 37  04 58 C8 9A 53 27 3F AA   ....A..7.X..S'?.
+                      2A E4 7C 9F BD AB DC 70  65 B8 1E 9C 68 2A 27 28   *.|....pe...h*'(
+                      79 FC B5 44 D2 29 9E 9E  18 55 C2 DE 70 D2 9E C0   y..D.)...U..p...
+                      0B 76 83 44 57 11 2F 2F  A3 C3 D8 DC DE CA 39 B1   .v.DW.//......9.
+                      FC F3 11 6E 4B 06 F8 2A  D0 AA 25 F8 50 BA 3B C7   ...nK..*..%.P.;.
+                      DA 32 F9 0F 4A BD B0 06  D0 E3 99 0C DF 5B 3A 40   .2..J........[:@
+                      A0 2A F6 84 77 D0 F2 E4  7B 8B F0 1E A8 C0 58 78   .*..w...{.....Xx
+                      58 87 2B F7 87 E3 F5 77  0B DA 2D 30 AA CB 2B 66   X.+....w..-0..+f
+                      1A EC B9 91 69 49 A1 2E  05 E4 1C 28 F2 F6 47 E4   ....iI.....(..G.
+                      34 C5 FF C8 27 E4 B5 FE  45 33 B2 F5 85 D9 DF BE   4...'...E3......
+                      EC 49                                              .I
+t= 9010 [st= 8934]  SOCKET_BYTES_RECEIVED
+                    --> byte_count = 33
+                    --> hex_encoded_bytes =
+                      17 03 03 00 1C 00 00 00  00 00 00 02 33 81 74 A3   ... .      .3.t.
+                      74 E8 B6 38 FC 93 26 43  D9 CC 4E DB A1 09 F3 83   t..8..&C..N.....
+                      1D                                                 .
+t= 9010 [st= 8934]  SSL_SOCKET_BYTES_RECEIVED
+                    --> byte_count = 4
+                    --> hex_encoded_bytes =
+                      00 00 00 B9                                           .
+t= 9011 [st= 8935]  SOCKET_BYTES_RECEIVED
+                    --> byte_count = 214
+                    --> hex_encoded_bytes =
+                      17 03 03 00 D1 00 00 00  00 00 00 02 34 C4 FD A6   ... .      .4...
+                      A8 73 9A 61 C9 6A BD 2F  9B F2 9A 73 4A B9 E6 80   .s.a.j./...sJ...
+                      2D 9D DB 90 A4 8D 74 3F  E9 6D F5 25 8E D5 8A 67   -.....t?.m.%...g
+                      C3 75 51 0F 72 C9 C7 BE  75 29 8C B9 7A 8F 8E 7F   .uQ.r...u)..z...
+                      A6 51 24 F3 8D E5 98 1D  F6 3B 23 5C 4C 20 4E 77   .Q$......;#\L Nw
+                      81 5D CB 2C 12 9D AB A7  ED 2A FA 46 CC 97 BE A3   .].,.....*.F....
+                      98 CC 39 BC 91 84 C1 21  A6 91 58 9A 2A AA 2F E9   ..9....!..X.*./.
+                      7C 34 65 33 07 B3 21 51  E9 6F B9 17 53 32 61 1A   |4e3..!Q.o..S2a.
+                      AD 7A B8 4B 38 32 1A 90  3A 38 AC 00 55 AB F3 85   .z.K82..:8. U...
+                      DF 2E 57 55 BC A2 51 C0  24 5C 7A 13 E6 21 7B F1   ..WU..Q.$\z..!{.
+                      C4 AF 7F 3A 4B 21 23 47  4D 3A AB D1 AC 90 9A 62   ...:K!#GM:.....b
+                      86 1E 85 3A 7C 68 89 50  FE 7A CB CC 96 D1 75 BC   ...:|h.P.z....u.
+                      31 37 BA F6 7E 5F 9B C6  B5 B6 6B BA AA 4C 96 EC   17..~_....k..L..
+                      EB A0 82 A0 A4 B3                                  ......
+t= 9011 [st= 8935]  SSL_SOCKET_BYTES_RECEIVED
+                    --> byte_count = 185
+                    --> hex_encoded_bytes =
+                      08 00 12 0A 72 65 63 65  69 76 65 72 2D 30 1A 01   . ..receiver-0..
+                      2A 22 23 75 72 6E 3A 78  2D 63 61 73 74 3A 63 6F   *"#urn:x-cast:co
+                      6D 2E 67 6F 6F 67 6C 65  2E 63 61 73 74 2E 72 65   m.google.cast.re
+                      63 65 69 76 65 72 28 00  32 7F 7B 22 72 65 71 75   ceiver( 2.{"requ
+                      65 73 74 49 64 22 3A 30  2C 22 73 74 61 74 75 73   estId":0,"status
+                      22 3A 7B 22 69 73 41 63  74 69 76 65 49 6E 70 75   ":{"isActiveInpu
+                      74 22 3A 74 72 75 65 2C  22 69 73 53 74 61 6E 64   t":true,"isStand
+                      42 79 22 3A 66 61 6C 73  65 2C 22 76 6F 6C 75 6D   By":false,"volum
+                      65 22 3A 7B 22 6C 65 76  65 6C 22 3A 31 2E 30 2C   e":{"level":1.0,
+                      22 6D 75 74 65 64 22 3A  66 61 6C 73 65 7D 7D 2C   "muted":false}},
+                      22 74 79 70 65 22 3A 22  52 45 43 45 49 56 45 52   "type":"RECEIVER
+                      5F 53 54 41 54 55 53 22  7D                        _STATUS"}
+t=12630 [st=12554]  SOCKET_BYTES_RECEIVED
+                    --> byte_count = 33
+                    --> hex_encoded_bytes =
+                      17 03 03 00 1C 00 00 00  00 00 00 02 35 3B B1 0C   ... .      .5;..
+                      F1 60 2A 2F 8F 16 47 61  9C 64 FF DE 53 20 94 0E   .`*/..Ga.d..S ..
+                      9C                                                 .
+t=12630 [st=12554]  SSL_SOCKET_BYTES_RECEIVED
+                    --> byte_count = 4
+                    --> hex_encoded_bytes =
+                      00 00 01 C7                                          ..
+t=12635 [st=12559]  SOCKET_BYTES_RECEIVED
+                    --> byte_count = 484
+                    --> hex_encoded_bytes =
+                      17 03 03 01 DF 00 00 00  00 00 00 02 36 8B 89 D5   .....      .6...
+                      89 30 1B E3 06 E7 F3 E8  DB 95 B7 50 E6 6D CD 94   .0.........P.m..
+                      69 2D C3 6B EA 26 79 6E  AD 7B 58 DA 5C 38 19 F6   i-.k.&yn.{X.\8..
+                      92 F2 AF 36 C9 AF 8D 31  D9 4C 7C 4D 0B FF 29 B4   ...6...1.L|M..).
+                      92 46 87 6E 83 29 8F 88  14 FE 57 F1 AD 2E B2 E4   .F.n.)....W.....
+                      EF E8 88 A1 63 A6 62 DF  F9 A9 A7 AC AC 72 20 29   ....c.b......r )
+                      04 86 9F A6 9D 2A 04 11  A9 A4 F6 97 ED F4 9F 77   .....*.........w
+                      B4 8C 16 DE 1C 61 5D 1A  FE C2 D9 98 AD 59 6E 52   .....a]......YnR
+                      BC F7 03 26 4C 50 EE 3D  34 81 06 2A F9 E2 14 80   ...&LP.=4..*....
+                      69 07 58 94 C0 29 B8 F7  61 AC 8A B7 98 47 7D 32   i.X..)..a....G}2
+                      E1 85 D5 5B A4 5D 0C DB  08 9A C7 2E BF F7 57 51   ...[.]........WQ
+                      FB 88 5F C0 98 AE 75 C1  DD 5F A3 36 10 7D 89 6B   .._...u.._.6.}.k
+                      03 10 A5 01 F1 FE 61 0E  F9 E8 C9 F3 87 30 12 7F   ......a......0..
+                      CC 1A C9 D0 AB 6C B0 8A  37 94 92 53 39 0F 26 5B   .....l..7..S9.&[
+                      C9 54 6B 94 28 AC 89 FC  55 39 62 52 BA 22 9D 96   .Tk.(...U9bR."..
+                      F5 7D 09 10 6A 88 70 54  05 95 19 02 BE F9 04 2A   .}..j.pT.......*
+                      D3 13 FE 46 8F 9D 17 D3  43 3C 4C E1 8F 8E 67 F7   ...F....C<L...g.
+                      B4 A1 A1 FF 79 E4 45 C9  F7 79 AD 90 3A AE C2 90   ....y.E..y..:...
+                      F3 BC DA CF BC F4 11 17  28 F7 7B A7 2B 4B 7B 81   ........(.{.+K{.
+                      24 18 BA A5 A4 4D 81 CA  1C F8 86 DE 46 98 DE 3E   $....M......F..>
+                      F5 37 B2 62 84 F4 82 89  00 29 01 9A 09 11 BA D0   .7.b.... )......
+                      95 05 0B 37 E7 0B DD DD  68 88 2B 5D 5D 27 3F 6E   ...7....h.+]]'?n
+                      4F F5 7A CE 87 01 A6 58  46 60 E4 A0 AB D9 EA 3E   O.z....XF`.....>
+                      15 4E 8B A3 3E 8B 9B 77  BB 73 A0 5F A4 65 9D BF   .N..>..w.s._.e..
+                      AB DE 5C 48 71 90 C1 95  72 27 39 E2 D1 A9 EF 92   ..\Hq...r'9.....
+                      3C 68 83 2A 6A 7C 23 F8  9C 70 34 D5 67 9C F9 B8   <h.*j|#..p4.g...
+                      D2 87 F8 C7 0D 08 76 0A  48 BC E8 F1 EC 62 05 88   ......v.H....b..
+                      3D 7D F2 CF 35 19 7F D9  61 A7 F5 00 D3 F7 86 58   =}..5...a.. ...X
+                      DF EF 7C 4A DF E3 F7 D7  B3 C0 3C 46 AF AE 6F E7   ..|J......<F..o.
+                      28 DA B3 75 CB DB 4A 0E  96 CD 18 6D D6 C8 27 AA   (..u..J....m..'.
+                      F8 6F 54 7D                                        .oT}
+t=12635 [st=12559]  SSL_SOCKET_BYTES_RECEIVED
+                    --> byte_count = 455
+                    --> hex_encoded_bytes =
+                      08 00 12 0A 72 65 63 65  69 76 65 72 2D 30 1A 01   . ..receiver-0..
+                      2A 22 23 75 72 6E 3A 78  2D 63 61 73 74 3A 63 6F   *"#urn:x-cast:co
+                      6D 2E 67 6F 6F 67 6C 65  2E 63 61 73 74 2E 72 65   m.google.cast.re
+                      63 65 69 76 65 72 28 00  32 8C 03 7B 22 72 65 71   ceiver( 2..{"req
+                      75 65 73 74 49 64 22 3A  35 34 31 37 38 30 30 37   uestId":54178007
+                      2C 22 73 74 61 74 75 73  22 3A 7B 22 61 70 70 6C   ,"status":{"appl
+                      69 63 61 74 69 6F 6E 73  22 3A 5B 7B 22 61 70 70   ications":[{"app
+                      49 64 22 3A 22 32 33 33  36 33 37 44 45 22 2C 22   Id":"233637DE","
+                      64 69 73 70 6C 61 79 4E  61 6D 65 22 3A 22 59 6F   displayName":"Yo
+                      75 54 75 62 65 22 2C 22  6E 61 6D 65 73 70 61 63   uTube","namespac
+                      65 73 22 3A 5B 7B 22 6E  61 6D 65 22 3A 22 75 72   es":[{"name":"ur
+                      6E 3A 78 2D 63 61 73 74  3A 63 6F 6D 2E 67 6F 6F   n:x-cast:com.goo
+                      67 6C 65 2E 79 6F 75 74  75 62 65 2E 6D 64 78 22   gle.youtube.mdx"
+                      7D 2C 7B 22 6E 61 6D 65  22 3A 22 75 72 6E 3A 78   },{"name":"urn:x
+                      2D 63 61 73 74 3A 63 6F  6D 2E 67 6F 6F 67 6C 65   -cast:com.google
+                      2E 63 61 73 74 2E 6D 65  64 69 61 22 7D 5D 2C 22   .cast.media"}],"
+                      73 65 73 73 69 6F 6E 49  64 22 3A 22 38 35 31 41   sessionId":"851A
+                      41 33 33 46 2D 46 44 44  36 2D 34 36 37 38 2D 38   A33F-FDD6-4678-8
+                      45 44 34 2D 39 37 46 38  46 31 46 45 31 45 31 34   ED4-97F8F1FE1E14
+                      22 2C 22 73 74 61 74 75  73 54 65 78 74 22 3A 22   ","statusText":"
+                      59 6F 75 54 75 62 65 22  2C 22 74 72 61 6E 73 70   YouTube","transp
+                      6F 72 74 49 64 22 3A 22  77 65 62 2D 34 22 7D 5D   ortId":"web-4"}]
+                      2C 22 69 73 41 63 74 69  76 65 49 6E 70 75 74 22   ,"isActiveInput"
+                      3A 74 72 75 65 2C 22 69  73 53 74 61 6E 64 42 79   :true,"isStandBy
+                      22 3A 66 61 6C 73 65 2C  22 76 6F 6C 75 6D 65 22   ":false,"volume"
+                      3A 7B 22 6C 65 76 65 6C  22 3A 31 2E 30 2C 22 6D   :{"level":1.0,"m
+                      75 74 65 64 22 3A 66 61  6C 73 65 7D 7D 2C 22 74   uted":false}},"t
+                      79 70 65 22 3A 22 52 45  43 45 49 56 45 52 5F 53   ype":"RECEIVER_S
+                      54 41 54 55 53 22 7D                               TATUS"}
+t=12641 [st=12565]  SSL_SOCKET_BYTES_SENT
+                    --> byte_count = 406
+                    --> hex_encoded_bytes =
+                      00 00 01 92 08 00 12 0C  63 6C 69 65 6E 74 2D 32     ... ..client-2
+                      31 37 31 36 1A 05 77 65  62 2D 34 22 28 75 72 6E   1716..web-4"(urn
+                      3A 78 2D 63 61 73 74 3A  63 6F 6D 2E 67 6F 6F 67   :x-cast:com.goog
+                      6C 65 2E 63 61 73 74 2E  74 70 2E 63 6F 6E 6E 65   le.cast.tp.conne
+                      63 74 69 6F 6E 28 00 32  CC 02 7B 22 74 79 70 65   ction( 2..{"type
+                      22 3A 22 43 4F 4E 4E 45  43 54 22 2C 22 6F 72 69   ":"CONNECT","ori
+                      67 69 6E 22 3A 7B 7D 2C  22 75 73 65 72 41 67 65   gin":{},"userAge
+                      6E 74 22 3A 22 4D 6F 7A  69 6C 6C 61 2F 35 2E 30   nt":"Mozilla/5.0
+                      20 28 4D 61 63 69 6E 74  6F 73 68 3B 20 49 6E 74    (Macintosh; Int
+                      65 6C 20 4D 61 63 20 4F  53 20 58 20 31 30 5F 31   el Mac OS X 10_1
+                      30 5F 35 29 20 41 70 70  6C 65 57 65 62 4B 69 74   0_5) AppleWebKit
+                      2F 35 33 37 2E 33 36 20  28 4B 48 54 4D 4C 2C 20   /537.36 (KHTML,
+                      6C 69 6B 65 20 47 65 63  6B 6F 29 20 43 68 72 6F   like Gecko) Chro
+                      6D 65 2F 34 38 2E 30 2E  32 35 36 34 2E 39 37 20   me/48.0.2564.97
+                      53 61 66 61 72 69 2F 35  33 37 2E 33 36 22 2C 22   Safari/537.36","
+                      73 65 6E 64 65 72 49 6E  66 6F 22 3A 7B 22 73 64   senderInfo":{"sd
+                      6B 54 79 70 65 22 3A 32  2C 22 76 65 72 73 69 6F   kType":2,"versio
+                      6E 22 3A 22 31 35 2E 31  31 32 30 2E 30 2E 32 22   n":"15.1120.0.2"
+                      2C 22 62 72 6F 77 73 65  72 56 65 72 73 69 6F 6E   ,"browserVersion
+                      22 3A 22 34 38 2E 30 2E  32 35 36 34 2E 39 37 22   ":"48.0.2564.97"
+                      2C 22 70 6C 61 74 66 6F  72 6D 22 3A 34 2C 22 73   ,"platform":4,"s
+                      79 73 74 65 6D 56 65 72  73 69 6F 6E 22 3A 22 4D   ystemVersion":"M
+                      61 63 69 6E 74 6F 73 68  3B 20 49 6E 74 65 6C 20   acintosh; Intel
+                      4D 61 63 20 4F 53 20 58  20 31 30 5F 31 30 5F 35   Mac OS X 10_10_5
+                      22 2C 22 63 6F 6E 6E 65  63 74 69 6F 6E 54 79 70   ","connectionTyp
+                      65 22 3A 31 7D 7D                                  e":1}}
+t=12641 [st=12565]  SOCKET_BYTES_SENT
+                    --> byte_count = 435
+                    --> hex_encoded_bytes =
+                      17 03 03 01 AE 00 00 00  00 00 00 01 08 D9 CC E5   .....      .....
+                      F1 00 B9 82 50 CE EA 23  08 A0 C9 DC F1 C7 2A E5   . ..P..#......*.
+                      B3 4D 96 E8 E8 34 62 E2  09 8D 2A 95 3B D4 1A 46   .M...4b...*.;..F
+                      12 E3 39 05 59 05 92 C9  57 B4 B1 A3 E2 61 54 F4   ..9.Y...W....aT.
+                      9B 25 F7 BC 22 55 77 BC  AD AB 04 78 58 38 19 73   .%.."Uw....xX8.s
+                      67 6E 21 B1 F2 81 AF EB  CB 97 47 58 65 C2 7C 8D   gn!.......GXe.|.
+                      CD 9A 74 65 BF 4C 47 BE  CB ED 17 36 3F F7 56 94   ..te.LG....6?.V.
+                      4E 6C B1 CE 37 98 36 91  C3 48 CE 9A D6 A3 5B B2   Nl..7.6..H....[.
+                      A1 7A 19 52 F0 9D 3E A3  21 22 DB 95 BF EE 76 C1   .z.R..>.!"....v.
+                      7E CC 5C 80 87 FB FA A5  E9 11 01 79 B0 43 DC F3   ~.\........y.C..
+                      52 98 CE 6A C5 BE 2E 96  37 1D 38 D1 DA 34 76 DC   R..j....7.8..4v.
+                      FA B3 4C E4 D9 31 38 61  F9 51 98 D8 F8 2D 66 A5   ..L..18a.Q...-f.
+                      E3 8F 65 D9 7B 74 0F 84  E0 C5 E8 E6 2D 1D B6 5D   ..e.{t......-..]
+                      A8 3D 7D 54 2C 1A D2 D0  01 08 6B 3A EF 4F A8 29   .=}T,.....k:.O.)
+                      DF 62 0A AF 29 34 B6 FC  18 DB F5 09 93 41 E6 E6   .b..)4.......A..
+                      80 F9 4D D9 72 E8 C9 DA  B8 A8 1A ED 88 F1 7B ED   ..M.r.........{.
+                      4A 6B 49 95 C3 DE 00 61  84 22 A0 1B EA EF F8 A2   JkI... a."......
+                      92 CC B2 73 B1 66 5C 3D  F4 7B 20 A2 4D 1D 9F 7F   ...s.f\=.{ .M...
+                      4C 21 B2 C2 A1 C7 E9 DB  81 DA 69 71 4D A6 29 FA   L!........iqM.).
+                      81 B7 09 93 72 1A C0 66  F2 82 B2 B2 CA B3 26 FF   ....r..f......&.
+                      99 92 91 59 F8 DD 24 1E  49 D5 6D EB 08 BA 4A 4A   ...Y..$.I.m...JJ
+                      65 E8 F9 08 63 5E 17 7A  0B 6C 38 34 62 82 AE 3E   e...c^.z.l84b..>
+                      6A 4B 57 50 79 03 24 D7  C0 5A C1 1B CC 1D C6 F4   jKWPy.$..Z......
+                      4C 74 87 38 9B 84 A7 0B  1D D2 8C 37 A8 BA 9D BA   Lt.8.......7....
+                      84 33 79 24 76 81 4F 76  A1 FA 57 3C E9 32 FA ED   .3y$v.Ov..W<.2..
+                      E2 F8 89 68 87 0E 77 B4  B5 33 44 3C D0 E0 7F 0E   ...h..w..3D<....
+                      6C 11 77 69 1B 52 04 63  A2 AE 86 74 E1 6B E1 30   l.wi.R.c...t.k.0
+                      5D A6 2F                                           ]./
+t=12641 [st=12565]  SSL_SOCKET_BYTES_SENT
+                    --> byte_count = 406
+                    --> hex_encoded_bytes =
+                      00 00 01 92 08 00 12 0C  63 6C 69 65 6E 74 2D 32     ... ..client-2
+                      31 37 31 36 1A 05 77 65  62 2D 34 22 28 75 72 6E   1716..web-4"(urn
+                      3A 78 2D 63 61 73 74 3A  63 6F 6D 2E 67 6F 6F 67   :x-cast:com.goog
+                      6C 65 2E 63 61 73 74 2E  74 70 2E 63 6F 6E 6E 65   le.cast.tp.conne
+                      63 74 69 6F 6E 28 00 32  CC 02 7B 22 74 79 70 65   ction( 2..{"type
+                      22 3A 22 43 4F 4E 4E 45  43 54 22 2C 22 6F 72 69   ":"CONNECT","ori
+                      67 69 6E 22 3A 7B 7D 2C  22 75 73 65 72 41 67 65   gin":{},"userAge
+                      6E 74 22 3A 22 4D 6F 7A  69 6C 6C 61 2F 35 2E 30   nt":"Mozilla/5.0
+                      20 28 4D 61 63 69 6E 74  6F 73 68 3B 20 49 6E 74    (Macintosh; Int
+                      65 6C 20 4D 61 63 20 4F  53 20 58 20 31 30 5F 31   el Mac OS X 10_1
+                      30 5F 35 29 20 41 70 70  6C 65 57 65 62 4B 69 74   0_5) AppleWebKit
+                      2F 35 33 37 2E 33 36 20  28 4B 48 54 4D 4C 2C 20   /537.36 (KHTML,
+                      6C 69 6B 65 20 47 65 63  6B 6F 29 20 43 68 72 6F   like Gecko) Chro
+                      6D 65 2F 34 38 2E 30 2E  32 35 36 34 2E 39 37 20   me/48.0.2564.97
+                      53 61 66 61 72 69 2F 35  33 37 2E 33 36 22 2C 22   Safari/537.36","
+                      73 65 6E 64 65 72 49 6E  66 6F 22 3A 7B 22 73 64   senderInfo":{"sd
+                      6B 54 79 70 65 22 3A 32  2C 22 76 65 72 73 69 6F   kType":2,"versio
+                      6E 22 3A 22 31 35 2E 31  31 32 30 2E 30 2E 32 22   n":"15.1120.0.2"
+                      2C 22 62 72 6F 77 73 65  72 56 65 72 73 69 6F 6E   ,"browserVersion
+                      22 3A 22 34 38 2E 30 2E  32 35 36 34 2E 39 37 22   ":"48.0.2564.97"
+                      2C 22 70 6C 61 74 66 6F  72 6D 22 3A 34 2C 22 73   ,"platform":4,"s
+                      79 73 74 65 6D 56 65 72  73 69 6F 6E 22 3A 22 4D   ystemVersion":"M
+                      61 63 69 6E 74 6F 73 68  3B 20 49 6E 74 65 6C 20   acintosh; Intel
+                      4D 61 63 20 4F 53 20 58  20 31 30 5F 31 30 5F 35   Mac OS X 10_10_5
+                      22 2C 22 63 6F 6E 6E 65  63 74 69 6F 6E 54 79 70   ","connectionTyp
+                      65 22 3A 31 7D 7D                                  e":1}}
+t=12641 [st=12565]  SOCKET_BYTES_SENT
+                    --> byte_count = 435
+                    --> hex_encoded_bytes =
+                      17 03 03 01 AE 00 00 00  00 00 00 01 09 EC 40 EC   .....      ...@.
+                      BC C9 01 23 0C F8 CB 6D  B9 7A BE 19 78 85 8E F2   ...#...m.z..x...
+                      92 F5 89 7D 4F 48 A0 74  08 10 CB DE F2 A6 58 8C   ...}OH.t......X.
+                      B9 09 43 CC 0C 7D 2C D3  5D 93 CA F5 CA D3 93 5D   ..C..},.]......]
+                      44 07 1D C0 B3 2D 6E 1C  E3 6B 24 9C 75 EB F9 87   D....-n..k$.u...
+                      30 20 44 61 E5 E0 69 8A  40 D0 A5 8B 44 CA 95 A2   0 Da..i.@...D...
+                      1D 1D 4C 7B 92 99 36 E1  FC AE 70 37 38 C1 5C 11   ..L{..6...p78.\.
+                      2B 47 08 69 5A A5 06 B8  9D 52 8B A1 41 DD 07 E5   +G.iZ....R..A...
+                      6E 05 1B 8D A4 01 E2 A0  E6 18 A3 51 10 6B 96 B0   n..........Q.k..
+                      92 AC 45 7A EA 31 ED DD  88 D0 73 6E CF 55 6A 52   ..Ez.1....sn.UjR
+                      08 A4 93 66 87 33 88 31  CB 27 10 7C 5D EA 4D E0   ...f.3.1.'.|].M.
+                      A5 3D A9 BB 33 46 00 D2  65 80 FF 2C 62 0D 8C 17   .=..3F .e..,b...
+                      3A 5E F2 61 AA 57 DB 6A  D3 35 F2 07 7C 84 19 2B   :^.a.W.j.5..|..+
+                      39 ED 73 63 52 37 C8 A4  BE 40 E7 C1 75 64 E4 FF   9.scR7...@..ud..
+                      8E 97 65 D8 F0 3F 5D 2D  AB 33 0C C4 27 97 3E 57   ..e..?]-.3..'.>W
+                      1A 58 C2 E9 63 56 5E EC  97 E6 99 12 C0 57 D1 72   .X..cV^......W.r
+                      66 AB 85 E0 C5 00 6D 2C  E3 DE D6 E0 72 6C B0 CF   f.... m,....rl..
+                      CB 82 93 ED C8 55 70 9E  85 52 DE 6F 0D 97 E7 86   .....Up..R.o....
+                      DB 89 DE EF 53 84 00 50  FF 0D BE F1 B6 C7 7A EE   ....S. P......z.
+                      68 B4 26 F2 1A 85 55 BE  22 3B 0F D0 FF F2 1E AA   h.&...U.";......
+                      F4 13 A1 19 4E FE 72 EE  90 E1 C0 47 F9 F3 DD F3   ....N.r....G....
+                      A5 D8 AA 28 8C 99 E4 64  87 39 C8 F5 82 08 5A 4A   ...(...d.9....ZJ
+                      39 95 E7 BF 31 FD 57 00  5B BF 83 9C 77 EE FA 0B   9...1.W [...w...
+                      10 9E A6 57 35 B5 48 75  3A B5 80 78 81 E4 7E 22   ...W5.Hu:..x..~"
+                      76 F9 03 43 63 28 91 9D  48 F2 18 87 9A 21 FD B8   v..Cc(..H....!..
+                      E1 BC AC 88 19 F6 EB 39  77 9B 86 23 5D 43 E5 8C   .......9w..#]C..
+                      67 30 CA B0 4F 9D 6B 6E  8E 69 D2 CB 23 EE 92 F3   g0..O.kn.i..#...
+                      EF DD EA                                           ...
+t=12642 [st=12566]  SSL_SOCKET_BYTES_SENT
+                    --> byte_count = 107
+                    --> hex_encoded_bytes =
+                      00 00 00 67 08 00 12 0C  63 6C 69 65 6E 74 2D 32      g. ..client-2
+                      31 37 31 36 1A 05 77 65  62 2D 34 22 20 75 72 6E   1716..web-4" urn
+                      3A 78 2D 63 61 73 74 3A  63 6F 6D 2E 67 6F 6F 67   :x-cast:com.goog
+                      6C 65 2E 63 61 73 74 2E  6D 65 64 69 61 28 00 32   le.cast.media( 2
+                      2A 7B 22 74 79 70 65 22  3A 22 47 45 54 5F 53 54   *{"type":"GET_ST
+                      41 54 55 53 22 2C 22 72  65 71 75 65 73 74 49 64   ATUS","requestId
+                      22 3A 35 34 31 37 38 30  30 38 7D                  ":54178008}
+t=12642 [st=12566]  SOCKET_BYTES_SENT
+                    --> byte_count = 136
+                    --> hex_encoded_bytes =
+                      17 03 03 00 83 00 00 00  00 00 00 01 0A 70 2E 2A   ... .      ..p.*
+                      4B B8 C6 04 2C 68 0E 09  E6 04 19 20 D9 B5 54 18   K...,h..... ..T.
+                      A1 6F AD 21 33 38 FA 01  99 E2 CD ED 2E 61 1F 9D   .o.!38.......a..
+                      BD 3F DF 16 BF F2 45 6E  EB 77 DE 28 18 A2 AD B3   .?....En.w.(....
+                      FD 72 70 64 0E 6E 00 9A  4A 26 4B A9 B7 E5 F1 37   .rpd.n .J&K....7
+                      88 28 43 F7 2E 0D F8 EC  8F F8 C2 4D E3 CD 8D E0   .(C........M....
+                      37 F5 6E 69 51 B3 7D 16  F8 25 C3 38 29 69 04 57   7.niQ.}..%.8)i.W
+                      66 C4 E1 38 19 02 E8 62  FF 38 66 52 6C 1A 94 B6   f..8...b.8fRl...
+                      3C 44 57 27 9C A8 A4 76                            <DW'...v
+t=13448 [st=13372]  SOCKET_BYTES_RECEIVED
+                    --> byte_count = 33
+                    --> hex_encoded_bytes =
+                      17 03 03 00 1C 00 00 00  00 00 00 02 37 57 B0 4B   ... .      .7W.K
+                      F1 E7 D5 0E C3 46 D1 81  1F F6 2C 50 B6 EF E8 64   .....F....,P...d
+                      C0                                                 .
+t=13448 [st=13372]  SSL_SOCKET_BYTES_RECEIVED
+                    --> byte_count = 4
+                    --> hex_encoded_bytes =
+                      00 00 00 F7                                           .
+t=13448 [st=13372]  SOCKET_BYTES_RECEIVED
+                    --> byte_count = 276
+                    --> hex_encoded_bytes =
+                      17 03 03 01 0F 00 00 00  00 00 00 02 38 4C FA AC   .....      .8L..
+                      35 04 4E 4D FD DC 36 9E  6E 55 19 16 80 58 C6 6F   5.NM..6.nU...X.o
+                      62 FD 52 F4 0F CC 5E 37  10 8B 4C 01 8B 14 B7 8C   b.R...^7..L.....
+                      8A 90 A7 DF 5D A8 EA 8C  12 29 7D A5 4C 9C D8 8B   ....]....)}.L...
+                      F7 D9 34 52 F4 18 14 F3  79 7B F9 F9 0E 87 81 0B   ..4R....y{......
+                      AE B7 B6 D8 AF 4F 70 62  60 FD 8A 0F 63 93 CE 29   .....Opb`...c..)
+                      06 FA 86 6C C9 EE E9 B8  94 34 CB 10 EA 89 B8 39   ...l.....4.....9
+                      11 7D 18 EA 90 F3 AB A0  D7 24 72 22 02 68 04 29   .}.......$r".h.)
+                      3B BD 67 08 B4 18 08 A1  F5 C2 43 53 98 65 54 D6   ;.g.......CS.eT.
+                      DE 4F 70 4F 7A 0E 79 82  9F B5 09 C8 07 BB 8D DE   .OpOz.y.........
+                      7F EA 13 58 8F 25 ED 72  F2 C8 46 68 AA 26 66 C4   ...X.%.r..Fh.&f.
+                      41 27 53 3A 7A AD 49 2A  18 46 07 15 C2 C8 28 2D   A'S:z.I*.F....(-
+                      3D 51 D4 9B 42 E2 EA 9A  8A 06 0F A8 B2 9A 20 75   =Q..B......... u
+                      DA D4 C3 20 E0 69 1D 83  29 7C 9C 63 3B EF 72 9C   ... .i..)|.c;.r.
+                      22 79 17 F7 DC B0 9C DF  20 B7 25 20 01 BC F0 75   "y...... .% ...u
+                      1F 2E 50 9B B3 1E 8A EF  43 F8 86 9B F7 64 A7 18   ..P.....C....d..
+                      3C 6C 99 51 06 20 45 9E  10 C7 AC 98 5D C8 EF E0   <l.Q. E.....]...
+                      18 55 8A DD                                        .U..
+t=13448 [st=13372]  SSL_SOCKET_BYTES_RECEIVED
+                    --> byte_count = 247
+                    --> hex_encoded_bytes =
+                      08 00 12 05 77 65 62 2D  34 1A 01 2A 22 20 75 72   . ..web-4..*" ur
+                      6E 3A 78 2D 63 61 73 74  3A 63 6F 6D 2E 67 6F 6F   n:x-cast:com.goo
+                      67 6C 65 2E 63 61 73 74  2E 6D 65 64 69 61 28 00   gle.cast.media(
+                      32 C4 01 7B 22 74 79 70  65 22 3A 22 4D 45 44 49   2..{"type":"MEDI
+                      41 5F 53 54 41 54 55 53  22 2C 22 73 74 61 74 75   A_STATUS","statu
+                      73 22 3A 5B 7B 22 6D 65  64 69 61 53 65 73 73 69   s":[{"mediaSessi
+                      6F 6E 49 64 22 3A 32 31  30 38 32 34 38 38 38 32   onId":2108248882
+                      2C 22 70 6C 61 79 62 61  63 6B 52 61 74 65 22 3A   ,"playbackRate":
+                      31 2C 22 73 75 70 70 6F  72 74 65 64 4D 65 64 69   1,"supportedMedi
+                      61 43 6F 6D 6D 61 6E 64  73 22 3A 33 2C 22 76 6F   aCommands":3,"vo
+                      6C 75 6D 65 22 3A 7B 22  6C 65 76 65 6C 22 3A 31   lume":{"level":1
+                      2C 22 6D 75 74 65 64 22  3A 66 61 6C 73 65 7D 2C   ,"muted":false},
+                      22 70 6C 61 79 65 72 53  74 61 74 65 22 3A 22 49   "playerState":"I
+                      44 4C 45 22 2C 22 63 75  73 74 6F 6D 44 61 74 61   DLE","customData
+                      22 3A 7B 22 70 6C 61 79  65 72 53 74 61 74 65 22   ":{"playerState"
+                      3A 2D 31 7D 7D 5D 7D                               :-1}}]}
+t=14504 [st=14428]  SOCKET_BYTES_RECEIVED
+                    --> byte_count = 33
+                    --> hex_encoded_bytes =
+                      17 03 03 00 1C 00 00 00  00 00 00 02 39 30 71 9A   ... .      .90q.
+                      C3 94 29 AA 82 CD 7A 05  3C B0 79 77 B2 65 B8 A8   ..)...z.<.yw.e..
+                      32                                                 2
+t=14504 [st=14428]  SSL_SOCKET_BYTES_RECEIVED
+                    --> byte_count = 4
+                    --> hex_encoded_bytes =
+                      00 00 00 F7                                           .
+t=14505 [st=14429]  SOCKET_BYTES_RECEIVED
+                    --> byte_count = 276
+                    --> hex_encoded_bytes =
+                      17 03 03 01 0F 00 00 00  00 00 00 02 3A 99 F2 D7   .....      .:...
+                      6B E2 81 9B FC 14 47 C7  1C C9 A1 5B 8B C4 A6 C7   k.....G....[....
+                      E1 F4 24 DA 17 C4 16 0A  48 53 CD 05 AB 09 7C 9F   ..$.....HS....|.
+                      A6 56 FE 30 25 16 20 A1  D8 7E 30 73 03 CA 1D B9   .V.0%. ..~0s....
+                      46 A7 F9 B3 D3 3D 08 D4  60 4B CB DD 43 F7 82 C2   F....=..`K..C...
+                      00 FC 00 FA D4 6E 63 6E  3C B3 EC D9 5E 19 A6 2E    . ..ncn<...^...
+                      45 93 92 DD C0 D3 56 EC  53 37 E3 34 FC EC B4 4A   E.....V.S7.4...J
+                      B0 66 B5 7C 7B C1 18 02  30 DE 22 1B 59 AC 10 67   .f.|{...0.".Y..g
+                      76 BF CB 33 79 4C 74 CD  03 BD 29 6D 1B 65 DA A8   v..3yLt...)m.e..
+                      7E 90 EA AB F2 0C FB AE  A7 CA 50 1F 64 17 74 05   ~.........P.d.t.
+                      0D 39 A9 CF F3 41 36 5C  11 3A 51 C5 E2 23 D1 39   .9...A6\.:Q..#.9
+                      62 ED 8B E3 6B FD A4 1F  99 F2 B2 E5 8A 73 9F FE   b...k........s..
+                      88 8A 71 99 56 D5 5F 49  DB 55 E2 F5 A8 0B 1C 91   ..q.V._I.U......
+                      03 87 3F 41 F0 C2 C9 CD  FD 27 30 20 C0 97 3B 82   ..?A.....'0 ..;.
+                      15 91 1A BA C9 98 FA CD  C5 79 58 3A 6E CE 3D E5   .........yX:n.=.
+                      F8 AD A4 6E B4 E5 51 82  D8 CE 49 C4 0E 05 F7 50   ...n..Q...I....P
+                      94 9D 29 91 DE 79 E5 3A  E4 4A 28 4B 75 95 C1 EA   ..)..y.:.J(Ku...
+                      4D BA BF AE                                        M...
+t=14505 [st=14429]  SSL_SOCKET_BYTES_RECEIVED
+                    --> byte_count = 247
+                    --> hex_encoded_bytes =
+                      08 00 12 05 77 65 62 2D  34 1A 01 2A 22 20 75 72   . ..web-4..*" ur
+                      6E 3A 78 2D 63 61 73 74  3A 63 6F 6D 2E 67 6F 6F   n:x-cast:com.goo
+                      67 6C 65 2E 63 61 73 74  2E 6D 65 64 69 61 28 00   gle.cast.media(
+                      32 C4 01 7B 22 74 79 70  65 22 3A 22 4D 45 44 49   2..{"type":"MEDI
+                      41 5F 53 54 41 54 55 53  22 2C 22 73 74 61 74 75   A_STATUS","statu
+                      73 22 3A 5B 7B 22 6D 65  64 69 61 53 65 73 73 69   s":[{"mediaSessi
+                      6F 6E 49 64 22 3A 32 31  30 38 32 34 38 38 38 32   onId":2108248882
+                      2C 22 70 6C 61 79 62 61  63 6B 52 61 74 65 22 3A   ,"playbackRate":
+                      31 2C 22 73 75 70 70 6F  72 74 65 64 4D 65 64 69   1,"supportedMedi
+                      61 43 6F 6D 6D 61 6E 64  73 22 3A 33 2C 22 76 6F   aCommands":3,"vo
+                      6C 75 6D 65 22 3A 7B 22  6C 65 76 65 6C 22 3A 31   lume":{"level":1
+                      2C 22 6D 75 74 65 64 22  3A 66 61 6C 73 65 7D 2C   ,"muted":false},
+                      22 70 6C 61 79 65 72 53  74 61 74 65 22 3A 22 49   "playerState":"I
+                      44 4C 45 22 2C 22 63 75  73 74 6F 6D 44 61 74 61   DLE","customData
+                      22 3A 7B 22 70 6C 61 79  65 72 53 74 61 74 65 22   ":{"playerState"
+                      3A 2D 31 7D 7D 5D 7D                               :-1}}]}
+t=14528 [st=14452]  SOCKET_BYTES_RECEIVED
+                    --> byte_count = 33
+                    --> hex_encoded_bytes =
+                      17 03 03 00 1C 00 00 00  00 00 00 02 3B C1 00 74   ... .      .;. t
+                      1D 75 6B 78 7F 21 0C EF  47 18 14 62 11 99 BC C8   .ukx.!..G..b....
+                      96                                                 .
+t=14528 [st=14452]  SSL_SOCKET_BYTES_RECEIVED
+                    --> byte_count = 4
+                    --> hex_encoded_bytes =
+                      00 00 01 17                                          ..
+t=14528 [st=14452]  SOCKET_BYTES_RECEIVED
+                    --> byte_count = 308
+                    --> hex_encoded_bytes =
+                      17 03 03 01 2F 00 00 00  00 00 00 02 3C B1 D0 86   ..../      .<...
+                      A7 21 C6 A8 4C 96 78 06  9A AB 87 4B 7E A0 E3 46   .!..L.x....K~..F
+                      76 92 8A AE 63 FB 00 6C  63 D9 89 52 04 86 DF A2   v...c. lc..R....
+                      4D 59 AF 67 18 B5 42 2A  5C FE B6 BF 17 21 01 65   MY.g..B*\....!.e
+                      15 6F 2C FD 69 EE 91 D3  96 5F E4 37 0D 14 2A 10   .o,.i...._.7..*.
+                      2F AA F1 A3 9E C6 CB 20  B0 76 F3 A0 26 30 F1 5F   /...... .v..&0._
+                      B3 99 09 E3 47 B0 31 C4  C3 BB F9 F2 13 C6 A2 5A   ....G.1........Z
+                      F1 30 7F 5F 0B 65 6E 63  5E 7D 7B 4E 64 FD CE 35   .0._.enc^}{Nd..5
+                      0D B9 27 6D 2F BF 55 FA  3C 59 84 61 85 DD B1 50   ..'m/.U.<Y.a...P
+                      1C 89 4F 2D EB BD B7 30  34 47 06 9F CF B8 B3 0B   ..O-...04G......
+                      41 99 23 9B FD 41 C0 3E  1B 5E 75 7B DF 61 B4 DD   A.#..A.>.^u{.a..
+                      83 F0 30 28 5E 58 61 1A  68 75 32 FD 35 07 BB AE   ..0(^Xa.hu2.5...
+                      38 AF DE 32 C7 3D F9 50  15 F5 5D F2 87 31 9D 76   8..2.=.P..]..1.v
+                      EA 51 3B 4F 56 F3 30 97  39 1A BB B2 9D FA AC 2F   .Q;OV.0.9....../
+                      D6 04 BF 0E 8A 94 E2 91  C1 18 28 0B 8F FB 07 AA   ..........(.....
+                      A5 F6 C7 8F A1 BE CF 7C  07 AE B2 C3 A2 1D B1 A4   .......|........
+                      46 81 09 86 CF C0 B1 C5  10 59 96 57 02 3B DE F1   F........Y.W.;..
+                      87 FB 83 7B 9C BE 6C A1  E5 E0 65 73 EA 16 BC 76   ...{..l...es...v
+                      11 07 42 F0 4D 13 12 AC  97 C1 F5 FF 70 2D EF B5   ..B.M.......p-..
+                      C0 3F 33 A9                                        .?3.
+t=14528 [st=14452]  SSL_SOCKET_BYTES_RECEIVED
+                    --> byte_count = 279
+                    --> hex_encoded_bytes =
+                      08 00 12 05 77 65 62 2D  34 1A 0C 63 6C 69 65 6E   . ..web-4..clien
+                      74 2D 32 31 37 31 36 22  20 75 72 6E 3A 78 2D 63   t-21716" urn:x-c
+                      61 73 74 3A 63 6F 6D 2E  67 6F 6F 67 6C 65 2E 63   ast:com.google.c
+                      61 73 74 2E 6D 65 64 69  61 28 00 32 D9 01 7B 22   ast.media( 2..{"
+                      74 79 70 65 22 3A 22 4D  45 44 49 41 5F 53 54 41   type":"MEDIA_STA
+                      54 55 53 22 2C 22 72 65  71 75 65 73 74 49 64 22   TUS","requestId"
+                      3A 35 34 31 37 38 30 30  38 2C 22 73 74 61 74 75   :54178008,"statu
+                      73 22 3A 5B 7B 22 6D 65  64 69 61 53 65 73 73 69   s":[{"mediaSessi
+                      6F 6E 49 64 22 3A 32 31  30 38 32 34 38 38 38 32   onId":2108248882
+                      2C 22 70 6C 61 79 62 61  63 6B 52 61 74 65 22 3A   ,"playbackRate":
+                      31 2C 22 73 75 70 70 6F  72 74 65 64 4D 65 64 69   1,"supportedMedi
+                      61 43 6F 6D 6D 61 6E 64  73 22 3A 33 2C 22 76 6F   aCommands":3,"vo
+                      6C 75 6D 65 22 3A 7B 22  6C 65 76 65 6C 22 3A 31   lume":{"level":1
+                      2C 22 6D 75 74 65 64 22  3A 66 61 6C 73 65 7D 2C   ,"muted":false},
+                      22 70 6C 61 79 65 72 53  74 61 74 65 22 3A 22 49   "playerState":"I
+                      44 4C 45 22 2C 22 63 75  73 74 6F 6D 44 61 74 61   DLE","customData
+                      22 3A 7B 22 70 6C 61 79  65 72 53 74 61 74 65 22   ":{"playerState"
+                      3A 2D 31 7D 7D 5D 7D                               :-1}}]}
+t=15662 [st=15586]  SSL_SOCKET_BYTES_SENT
+                    --> byte_count = 143
+                    --> hex_encoded_bytes =
+                      00 00 00 8B 08 00 12 0C  63 6C 69 65 6E 74 2D 32      .. ..client-2
+                      31 37 31 36 1A 05 77 65  62 2D 34 22 21 75 72 6E   1716..web-4"!urn
+                      3A 78 2D 63 61 73 74 3A  63 6F 6D 2E 67 6F 6F 67   :x-cast:com.goog
+                      6C 65 2E 79 6F 75 74 75  62 65 2E 6D 64 78 28 00   le.youtube.mdx(
+                      32 4D 7B 22 74 79 70 65  22 3A 22 66 6C 69 6E 67   2M{"type":"fling
+                      56 69 64 65 6F 22 2C 22  64 61 74 61 22 3A 7B 22   Video","data":{"
+                      76 69 64 65 6F 49 64 22  3A 22 49 61 72 73 72 58   videoId":"IarsrX
+                      36 30 62 5A 77 22 2C 22  63 75 72 72 65 6E 74 54   60bZw","currentT
+                      69 6D 65 22 3A 32 2E 32  34 30 36 39 39 7D 7D      ime":2.240699}}
+t=15662 [st=15586]  SOCKET_BYTES_SENT
+                    --> byte_count = 172
+                    --> hex_encoded_bytes =
+                      17 03 03 00 A7 00 00 00  00 00 00 01 0B D9 A5 A8   ... .      .....
+                      2A 24 41 75 7E 3E 77 93  1E F2 A2 78 98 49 14 98   *$Au~>w....x.I..
+                      2B 55 78 1B E1 0A 7C 7A  1E 86 86 FA EB F9 26 5E   +Ux...|z......&^
+                      D6 A5 B3 46 26 2E F2 94  F0 3D 35 2E EC 04 D5 21   ...F&....=5....!
+                      85 16 C9 C5 D0 29 40 F4  87 21 62 45 CA 81 CF B9   .....)@..!bE....
+                      E2 6D 93 DB 55 FF 0E EE  5F 55 BE CF C8 F2 64 BF   .m..U..._U....d.
+                      47 12 D9 C8 AB DC 5B 37  33 F6 05 8D 00 7E 28 31   G.....[73... ~(1
+                      A9 EE 27 2C 6A 1C 56 45  35 AC 27 C6 82 95 42 18   ..',j.VE5.'...B.
+                      5F A3 A3 1A 05 14 A7 93  2E 81 93 FE 28 C4 B0 CD   _...........(...
+                      53 93 11 F9 D8 CA 90 E5  E8 15 FF 66 53 11 14 A8   S..........fS...
+                      4E BF EB 7B A3 2E 53 CE  F0 43 6C 03               N..{..S..Cl.
+t=15663 [st=15587]  SSL_SOCKET_BYTES_SENT
+                    --> byte_count = 96
+                    --> hex_encoded_bytes =
+                      00 00 00 5C 08 00 12 0C  63 6C 69 65 6E 74 2D 32      \. ..client-2
+                      31 37 31 36 1A 05 77 65  62 2D 34 22 21 75 72 6E   1716..web-4"!urn
+                      3A 78 2D 63 61 73 74 3A  63 6F 6D 2E 67 6F 6F 67   :x-cast:com.goog
+                      6C 65 2E 79 6F 75 74 75  62 65 2E 6D 64 78 28 00   le.youtube.mdx(
+                      32 1E 7B 22 74 79 70 65  22 3A 22 67 65 74 4D 64   2.{"type":"getMd
+                      78 53 65 73 73 69 6F 6E  53 74 61 74 75 73 22 7D   xSessionStatus"}
+t=15663 [st=15587]  SOCKET_BYTES_SENT
+                    --> byte_count = 125
+                    --> hex_encoded_bytes =
+                      17 03 03 00 78 00 00 00  00 00 00 01 0C F8 DF 9D   ... x      .....
+                      D1 D1 E8 DE A1 AE 3C 5C  83 A6 43 72 36 A1 BE AD   ......<\..Cr6...
+                      20 0D 25 D8 15 FE 56 FB  2D EF 63 B3 D0 28 C0 B1    .%...V.-.c..(..
+                      2C BF FD 9A AE FF 05 AA  DE 56 5E 68 6A 98 DC 8F   ,........V^hj...
+                      69 E1 DC 8E AA 28 88 62  7E 81 71 A0 A2 EF 26 13   i....(.b~.q...&.
+                      0F 96 1C 45 CA 37 0E 0D  D9 64 1D D7 26 16 8F 5E   ...E.7...d..&..^
+                      4B F3 E5 CE 09 D0 CA B6  21 E3 96 6D 4A 7F 6C ED   K.......!..mJ.l.
+                      C5 34 02 B7 34 C6 6D 2A  0C 38 78 F4 9E            .4..4.m*.8x..
+t=16411 [st=16335]  SOCKET_BYTES_RECEIVED
+                    --> byte_count = 33
+                    --> hex_encoded_bytes =
+                      17 03 03 00 1C 00 00 00  00 00 00 02 3D 4F B7 09   ... .      .=O..
+                      05 E2 3C 37 63 A3 0B 5A  4F 00 15 6F 4F 74 5F 19   ..<7c..ZO .oOt_.
+                      D1                                                 .
+t=16411 [st=16335]  SSL_SOCKET_BYTES_RECEIVED
+                    --> byte_count = 4
+                    --> hex_encoded_bytes =
+                      00 00 00 7F                                           .
+t=16411 [st=16335]  SOCKET_BYTES_RECEIVED
+                    --> byte_count = 156
+                    --> hex_encoded_bytes =
+                      17 03 03 00 97 00 00 00  00 00 00 02 3E 82 75 0A   ... .      .>.u.
+                      83 AF 12 15 3E 34 77 22  53 69 C3 A8 24 1F 18 A5   ....>4w"Si..$...
+                      B4 8F FD 83 BD 21 40 5E  2D 7F A5 F8 90 53 A5 28   .....!@^-....S.(
+                      43 F5 58 26 76 80 2E E0  EC 5A 6F 3B D5 25 65 C5   C.X&v....Zo;.%e.
+                      B1 EC 26 5F 61 E0 53 1F  24 B4 CD A7 58 B1 73 A0   ..&_a.S.$...X.s.
+                      2D 95 FA 7F AD DF A0 58  68 A6 58 41 F3 39 DF 05   -......Xh.XA.9..
+                      D6 E2 10 78 24 4D B0 77  39 A3 01 B3 83 5D EB 7B   ...x$M.w9....].{
+                      54 39 61 94 A5 65 81 E8  87 BC 40 44 A4 62 A8 8D   T9a..e....@D.b..
+                      09 AD 80 5A DD 31 C8 91  B4 AE 94 08 7F B7 0B 3A   ...Z.1.........:
+                      4F B6 0C 1D E9 B8 58 FC  76 D1 16 C1               O.....X.v...
+t=16412 [st=16336]  SSL_SOCKET_BYTES_RECEIVED
+                    --> byte_count = 127
+                    --> hex_encoded_bytes =
+                      08 00 12 05 77 65 62 2D  34 1A 01 2A 22 21 75 72   . ..web-4..*"!ur
+                      6E 3A 78 2D 63 61 73 74  3A 63 6F 6D 2E 67 6F 6F   n:x-cast:com.goo
+                      67 6C 65 2E 79 6F 75 74  75 62 65 2E 6D 64 78 28   gle.youtube.mdx(
+                      00 32 4C 7B 22 74 79 70  65 22 3A 22 6D 64 78 53    2L{"type":"mdxS
+                      65 73 73 69 6F 6E 53 74  61 74 75 73 22 2C 22 64   essionStatus","d
+                      61 74 61 22 3A 7B 22 73  63 72 65 65 6E 49 64 22   ata":{"screenId"
+                      3A 22 68 61 67 32 76 6C  74 73 71 61 67 6F 35 63   :"hag2vltsqago5c
+                      6B 6C 31 71 39 36 37 67  34 62 69 66 22 7D 7D      kl1q967g4bif"}}
+t=16444 [st=16368]  SOCKET_BYTES_RECEIVED
+                    --> byte_count = 33
+                    --> hex_encoded_bytes =
+                      17 03 03 00 1C 00 00 00  00 00 00 02 3F 83 C0 CB   ... .      .?...
+                      DB 9D FF FA 1E 42 7D 25  10 BD 06 9F 53 97 04 8C   .....B}%....S...
+                      47                                                 G
+t=16444 [st=16368]  SSL_SOCKET_BYTES_RECEIVED
+                    --> byte_count = 4
+                    --> hex_encoded_bytes =
+                      00 00 01 C3                                          ..
+t=16447 [st=16371]  SOCKET_BYTES_RECEIVED
+                    --> byte_count = 480
+                    --> hex_encoded_bytes =
+                      17 03 03 01 DB 00 00 00  00 00 00 02 40 3B F2 E3   .....      .@;..
+                      13 75 FE A3 7A 63 5C 0C  A1 39 1B 9F 53 EA A9 83   .u..zc\..9..S...
+                      BE 13 4B 46 88 CE CF FF  7D 1C 04 E7 91 63 30 A6   ..KF....}....c0.
+                      6A 46 46 60 6F A3 5C 1F  FD 75 77 2D 93 9B 9F CC   jFF`o.\..uw-....
+                      D7 05 CA 9F F7 87 69 CB  F2 9E 78 19 51 F0 62 38   ......i...x.Q.b8
+                      12 D3 D2 6C 7F 89 95 04  5C E1 81 C3 2C 67 BB 3B   ...l....\...,g.;
+                      24 88 80 87 19 B8 AE 7C  7D D4 21 34 F8 31 10 E9   $......|}.!4.1..
+                      8A 94 D6 F1 58 E0 22 45  4A 03 BF 41 67 B6 F2 E2   ....X."EJ..Ag...
+                      82 31 45 A8 B2 03 08 DE  9F B4 D6 A6 0B 72 15 47   .1E..........r.G
+                      EE FE 4B 77 9A AA 02 5A  1C D3 50 8B AE B6 DD F1   ..Kw...Z..P.....
+                      2C 94 33 04 A7 07 38 34  C4 DE D8 50 93 3D 34 FC   ,.3...84...P.=4.
+                      12 26 3D F1 EF 29 3A D1  C0 46 C5 78 83 FE 7D A8   .&=..):..F.x..}.
+                      58 C2 1F 1F A5 86 BC C8  59 68 09 FD 20 B1 A9 2E   X.......Yh.. ...
+                      66 2B 23 E4 F7 6D B3 06  F8 2B 6B 32 67 F3 3D 68   f+#..m...+k2g.=h
+                      5D 19 BD 0E 51 E1 5B FB  8D 80 87 9F 4C BF 8F 6F   ]...Q.[.....L..o
+                      AC 47 11 23 BD C4 C8 DD  87 6F FD 14 B8 23 F4 1D   .G.#.....o...#..
+                      9C 7F 7C EB 44 77 8F F7  C0 26 56 8F D0 E6 F8 2F   ..|.Dw...&V..../
+                      FD 8B 7D 39 DD 15 B5 DD  DE 0C AA 74 1F 2E 11 07   ..}9.......t....
+                      56 12 66 82 DF AB 16 E9  C8 9D 76 8C F0 72 0C 27   V.f.......v..r.'
+                      8F 5A 7A C3 1E 52 6C 68  3B DD 81 64 31 75 9C CB   .Zz..Rlh;..d1u..
+                      94 47 89 D6 0F D7 9D 09  76 76 B5 16 94 02 E2 06   .G......vv......
+                      DE FC D2 4D 2B 1E EF 0A  D9 72 CF 17 C5 22 07 69   ...M+....r...".i
+                      97 C6 34 1F 77 89 B3 6F  2C 7B 1D A8 F0 24 9E E7   ..4.w..o,{...$..
+                      A7 79 38 8F 10 93 BA F9  26 13 67 BA 5F 99 A4 5C   .y8.....&.g._..\
+                      FC BD 16 47 DF ED 53 64  74 68 4C 49 1B AE C4 92   ...G..SdthLI....
+                      B2 08 07 6D AD 8D D5 25  1A B5 CD 35 C2 EE 8D 1C   ...m...%...5....
+                      31 96 89 D6 4A 0A A4 2D  7C 25 EA 05 36 0A A3 6B   1...J..-|%..6..k
+                      6B FB DB B7 3B DB 1C 2B  38 F4 5A 7F 54 30 7B FC   k...;..+8.Z.T0{.
+                      95 E7 92 D4 86 F2 A7 3B  B3 50 A5 CD 5F F3 E1 29   .......;.P.._..)
+                      C8 49 CC E6 9F C6 CF AD  52 DD D2 DE BE 91 C8 92   .I......R.......
+t=16447 [st=16371]  SSL_SOCKET_BYTES_RECEIVED
+                    --> byte_count = 451
+                    --> hex_encoded_bytes =
+                      08 00 12 0A 72 65 63 65  69 76 65 72 2D 30 1A 01   . ..receiver-0..
+                      2A 22 23 75 72 6E 3A 78  2D 63 61 73 74 3A 63 6F   *"#urn:x-cast:co
+                      6D 2E 67 6F 6F 67 6C 65  2E 63 61 73 74 2E 72 65   m.google.cast.re
+                      63 65 69 76 65 72 28 00  32 88 03 7B 22 72 65 71   ceiver( 2..{"req
+                      75 65 73 74 49 64 22 3A  30 2C 22 73 74 61 74 75   uestId":0,"statu
+                      73 22 3A 7B 22 61 70 70  6C 69 63 61 74 69 6F 6E   s":{"application
+                      73 22 3A 5B 7B 22 61 70  70 49 64 22 3A 22 32 33   s":[{"appId":"23
+                      33 36 33 37 44 45 22 2C  22 64 69 73 70 6C 61 79   3637DE","display
+                      4E 61 6D 65 22 3A 22 59  6F 75 54 75 62 65 22 2C   Name":"YouTube",
+                      22 6E 61 6D 65 73 70 61  63 65 73 22 3A 5B 7B 22   "namespaces":[{"
+                      6E 61 6D 65 22 3A 22 75  72 6E 3A 78 2D 63 61 73   name":"urn:x-cas
+                      74 3A 63 6F 6D 2E 67 6F  6F 67 6C 65 2E 79 6F 75   t:com.google.you
+                      74 75 62 65 2E 6D 64 78  22 7D 2C 7B 22 6E 61 6D   tube.mdx"},{"nam
+                      65 22 3A 22 75 72 6E 3A  78 2D 63 61 73 74 3A 63   e":"urn:x-cast:c
+                      6F 6D 2E 67 6F 6F 67 6C  65 2E 63 61 73 74 2E 6D   om.google.cast.m
+                      65 64 69 61 22 7D 5D 2C  22 73 65 73 73 69 6F 6E   edia"}],"session
+                      49 64 22 3A 22 38 35 31  41 41 33 33 46 2D 46 44   Id":"851AA33F-FD
+                      44 36 2D 34 36 37 38 2D  38 45 44 34 2D 39 37 46   D6-4678-8ED4-97F
+                      38 46 31 46 45 31 45 31  34 22 2C 22 73 74 61 74   8F1FE1E14","stat
+                      75 73 54 65 78 74 22 3A  22 59 6F 75 54 75 62 65   usText":"YouTube
+                      20 54 56 22 2C 22 74 72  61 6E 73 70 6F 72 74 49    TV","transportI
+                      64 22 3A 22 77 65 62 2D  34 22 7D 5D 2C 22 69 73   d":"web-4"}],"is
+                      41 63 74 69 76 65 49 6E  70 75 74 22 3A 74 72 75   ActiveInput":tru
+                      65 2C 22 69 73 53 74 61  6E 64 42 79 22 3A 66 61   e,"isStandBy":fa
+                      6C 73 65 2C 22 76 6F 6C  75 6D 65 22 3A 7B 22 6C   lse,"volume":{"l
+                      65 76 65 6C 22 3A 31 2E  30 2C 22 6D 75 74 65 64   evel":1.0,"muted
+                      22 3A 66 61 6C 73 65 7D  7D 2C 22 74 79 70 65 22   ":false}},"type"
+                      3A 22 52 45 43 45 49 56  45 52 5F 53 54 41 54 55   :"RECEIVER_STATU
+                      53 22 7D                                           S"}
+t=20787 [st=20711]  SOCKET_BYTES_RECEIVED
+                    --> byte_count = 33
+                    --> hex_encoded_bytes =
+                      17 03 03 00 1C 00 00 00  00 00 00 02 41 62 DF CC   ... .      .Ab..
+                      6B 47 13 14 F3 76 C0 76  A3 E2 98 89 10 BC B6 88   kG...v.v........
+                      C8                                                 .
+t=20787 [st=20711]  SSL_SOCKET_BYTES_RECEIVED
+                    --> byte_count = 4
+                    --> hex_encoded_bytes =
+                      00 00 02 D6                                          ..
+t=20787 [st=20711]  SOCKET_BYTES_RECEIVED
+                    --> byte_count = 755
+                    --> hex_encoded_bytes =
+                      17 03 03 02 EE 00 00 00  00 00 00 02 42 23 0F 50   .....      .B#.P
+                      45 77 65 3F 0D 5A AE F2  80 07 EC A7 CC 25 78 E8   Ewe?.Z.......%x.
+                      08 EF C9 E9 E1 E1 12 BF  E1 2F 1F B9 37 C3 6F EA   ........./..7.o.
+                      82 F8 B3 19 E4 1D 12 50  A5 84 52 68 19 17 0B B7   .......P..Rh....
+                      82 BE E6 21 B6 34 B1 70  2F FC 60 3C B8 7E 94 6F   ...!.4.p/.`<.~.o
+                      AF CA 61 92 4B 9B 1D 1C  5B DE 08 C1 15 29 8C 94   ..a.K...[....)..
+                      DC 96 24 71 19 81 58 F7  EE 50 9F AE A6 94 C9 26   ..$q..X..P.....&
+                      73 9F 76 AC 36 0D B6 DB  9F 7C AE 2C 87 0D D6 EB   s.v.6....|.,....
+                      45 3E 8F 09 AE A0 1B 2D  2C 58 8B 0E 2F 12 72 51   E>.....-,X../.rQ
+                      05 00 02 04 2E 76 BB 84  6A F7 14 AC 84 B1 7D C9   . ...v..j.....}.
+                      62 CE 6E 66 9E F3 9E 37  1A 23 92 1E 1C 25 1D 39   b.nf...7.#...%.9
+                      A7 A5 11 2D 3C E8 E3 85  06 61 54 29 2A BF AA A5   ...-<....aT)*...
+                      B3 B9 50 A2 2B BF 35 2C  3B F2 02 DF EB CC 71 F2   ..P.+.5,;.....q.
+                      B2 38 BE 82 18 6B F5 98  91 CE 8F 13 FA 90 19 40   .8...k.........@
+                      3C 72 6A E5 D2 9A 9D D3  CD 7D 9A E9 94 A4 85 38   <rj......}.....8
+                      9D 40 77 81 E8 F8 E9 C0  E8 03 08 06 93 8E 3A 84   .@w...........:.
+                      A6 E8 79 99 96 FE 90 6B  F5 86 2C 36 C8 62 11 6D   ..y....k..,6.b.m
+                      39 DF A8 65 8B 55 AD C4  2E A5 E5 CF 8B FD 90 3C   9..e.U.........<
+                      50 EA A9 34 0E 4B 92 B3  E4 76 B6 87 7D A4 E7 59   P..4.K...v..}..Y
+                      9E A5 28 47 04 F2 58 20  05 AB 25 D9 A8 27 F4 AF   ..(G..X ..%..'..
+                      1D 9C F1 EE D2 90 9C ED  0F 12 8A 2F 68 1F A4 97   .........../h...
+                      3E 5E 0E A2 73 89 6D F3  63 6D 37 E8 06 DD 3A 44   >^..s.m.cm7...:D
+                      2C DA A6 C1 B2 07 EF 2A  A5 90 8B A2 EC F4 69 4A   ,......*......iJ
+                      0E 8F 20 3E 21 CF AD 76  C4 0D 92 26 B1 5F AB 6F   .. >!..v...&._.o
+                      E2 89 5E A6 89 55 00 F5  AC 15 37 2B 0C 8F 56 48   ..^..U ...7+..VH
+                      8D C0 B3 8D 29 71 F4 95  B9 48 0B 33 79 2E 31 6C   ....)q...H.3y.1l
+                      BD 5F 35 38 59 70 58 F2  0E 52 4E 25 C6 75 6A 07   ._58YpX..RN%.uj.
+                      C1 7D 57 A0 38 DE AE 31  DF 7E 8C 8C 34 6D E4 AE   .}W.8..1.~..4m..
+                      55 02 91 3D 14 C6 0D 98  CD 1C C3 D8 7A 37 94 3F   U..=........z7.?
+                      EF B6 02 E1 C8 C9 7C 62  F9 2F D9 C0 B7 AB 75 6F   ......|b./....uo
+                      D5 49 26 D3 C2 A4 A0 C6  BD 3D A5 1E E2 08 AE 3D   .I&......=.....=
+                      F3 6D F7 DD F5 6A 68 5A  A2 B9 0A B4 ED 7E D8 55   .m...jhZ.....~.U
+                      D6 5B 9E 2C 60 76 1B A8  69 85 2F 86 00 CF BA E4   .[.,`v..i./. ...
+                      3C 8F 39 BE E2 B7 C5 87  58 06 42 EA 28 7C 81 C4   <.9.....X.B.(|..
+                      A2 4A C2 5D 68 81 09 BF  35 50 6B 7D EE C3 12 50   .J.]h...5Pk}...P
+                      E6 52 D3 8B 69 D6 24 17  DC AE BA 29 43 D1 EB AE   .R..i.$....)C...
+                      3F 9D 09 35 B8 69 44 CC  3B 0E 8E C8 E8 08 9D B0   ?..5.iD.;.......
+                      52 B3 E5 4D 9B DD BB F1  AF DF DD 16 48 F6 ED C5   R..M........H...
+                      CB 4D 4E 06 05 F3 21 98  FA D6 08 05 E3 EB C0 22   .MN...!........"
+                      15 CB 94 43 24 AB 9F 5C  99 9B 6F 0C 6A 30 AD 18   ...C$..\..o.j0..
+                      CB 9C 11 D9 FE B2 50 08  06 1F EE 1D ED 21 DF AA   ......P......!..
+                      DD 37 B5 68 7C 8E DE 00  88 1F 57 54 2B 8D A6 79   .7.h|.. ..WT+..y
+                      0D 39 87 EE 85 31 F2 BD  90 AB 23 A8 0C FA F8 D1   .9...1....#.....
+                      DF B7 B8 8C 41 7E 7F 55  88 85 5C 80 C8 EC F8 96   ....A~.U..\.....
+                      25 5B DD 37 8F DF A8 77  15 31 A4 C3 37 AD 38 A5   %[.7...w.1..7.8.
+                      83 AB C6 EA 68 B5 27 41  59 85 97 79 78 4A 97 B9   ....h.'AY..yxJ..
+                      EC 33 59 B3 FD 97 97 A8  50 C1 C9 FA B6 F6 2C ED   .3Y.....P.....,.
+                      8D 2B F0                                           .+.
+t=20787 [st=20711]  SSL_SOCKET_BYTES_RECEIVED
+                    --> byte_count = 726
+                    --> hex_encoded_bytes =
+                      08 00 12 05 77 65 62 2D  34 1A 01 2A 22 20 75 72   . ..web-4..*" ur
+                      6E 3A 78 2D 63 61 73 74  3A 63 6F 6D 2E 67 6F 6F   n:x-cast:com.goo
+                      67 6C 65 2E 63 61 73 74  2E 6D 65 64 69 61 28 00   gle.cast.media(
+                      32 A3 05 7B 22 74 79 70  65 22 3A 22 4D 45 44 49   2..{"type":"MEDI
+                      41 5F 53 54 41 54 55 53  22 2C 22 73 74 61 74 75   A_STATUS","statu
+                      73 22 3A 5B 7B 22 6D 65  64 69 61 53 65 73 73 69   s":[{"mediaSessi
+                      6F 6E 49 64 22 3A 32 31  30 38 32 34 38 38 38 32   onId":2108248882
+                      2C 22 70 6C 61 79 62 61  63 6B 52 61 74 65 22 3A   ,"playbackRate":
+                      31 2C 22 73 75 70 70 6F  72 74 65 64 4D 65 64 69   1,"supportedMedi
+                      61 43 6F 6D 6D 61 6E 64  73 22 3A 33 2C 22 76 6F   aCommands":3,"vo
+                      6C 75 6D 65 22 3A 7B 22  6C 65 76 65 6C 22 3A 31   lume":{"level":1
+                      2C 22 6D 75 74 65 64 22  3A 66 61 6C 73 65 7D 2C   ,"muted":false},
+                      22 70 6C 61 79 65 72 53  74 61 74 65 22 3A 22 42   "playerState":"B
+                      55 46 46 45 52 49 4E 47  22 2C 22 63 75 73 74 6F   UFFERING","custo
+                      6D 44 61 74 61 22 3A 7B  22 70 6C 61 79 65 72 53   mData":{"playerS
+                      74 61 74 65 22 3A 33 7D  2C 22 63 75 72 72 65 6E   tate":3},"curren
+                      74 54 69 6D 65 22 3A 30  2C 22 6D 65 64 69 61 22   tTime":0,"media"
+                      3A 7B 22 63 6F 6E 74 65  6E 74 49 64 22 3A 22 49   :{"contentId":"I
+                      61 72 73 72 58 36 30 62  5A 77 22 2C 22 63 6F 6E   arsrX60bZw","con
+                      74 65 6E 74 54 79 70 65  22 3A 22 78 2D 79 6F 75   tentType":"x-you
+                      74 75 62 65 2F 76 69 64  65 6F 22 2C 22 63 75 73   tube/video","cus
+                      74 6F 6D 44 61 74 61 22  3A 7B 22 6C 69 73 74 49   tomData":{"listI
+                      64 22 3A 22 52 51 41 47  64 4F 35 70 39 73 30 34   d":"RQAGdO5p9s04
+                      56 4C 37 63 76 56 67 33  62 6D 6F 56 6C 2D 79 58   VL7cvVg3bmoVl-yX
+                      78 52 31 43 47 4B 43 70  53 51 36 33 50 78 4A 47   xR1CGKCpSQ63PxJG
+                      62 6F 33 4A 78 2D 7A 78  36 62 2D 6C 55 36 45 59   bo3Jx-zx6b-lU6EY
+                      39 57 72 4E 6C 47 35 52  4A 48 46 66 59 6A 75 47   9WrNlG5RJHFfYjuG
+                      6D 79 32 55 70 31 4D 55  70 7A 48 33 72 44 57 33   my2Up1MUpzH3rDW3
+                      68 51 39 69 6B 4D 53 67  36 34 78 35 4F 32 68 79   hQ9ikMSg64x5O2hy
+                      71 43 51 45 4F 61 47 66  6A 49 31 57 6B 22 2C 22   qCQEOaGfjI1Wk","
+                      63 75 72 72 65 6E 74 49  6E 64 65 78 22 3A 31 7D   currentIndex":1}
+                      2C 22 73 74 72 65 61 6D  54 79 70 65 22 3A 22 42   ,"streamType":"B
+                      55 46 46 45 52 45 44 22  2C 22 6D 65 74 61 64 61   UFFERED","metada
+                      74 61 22 3A 7B 22 6D 65  74 61 64 61 74 61 54 79   ta":{"metadataTy
+                      70 65 22 3A 30 2C 22 74  69 74 6C 65 22 3A 22 54   pe":0,"title":"T
+                      68 61 6C 6C 69 20 50 6F  67 61 74 68 65 79 20 2D   halli Pogathey -
+                      20 4F 66 66 69 63 69 61  6C 20 53 69 6E 67 6C 65    Official Single
+                      20 7C 20 41 63 68 63 68  61 6D 20 59 65 6E 62 61    | Achcham Yenba
+                      64 68 75 20 4D 61 64 61  6D 61 69 79 61 64 61 20   dhu Madamaiyada
+                      7C 20 41 20 52 20 52 61  68 6D 61 6E 20 7C 20 4C   | A R Rahman | L
+                      79 72 69 63 20 56 69 64  65 6F 22 2C 22 69 6D 61   yric Video","ima
+                      67 65 73 22 3A 5B 7B 22  75 72 6C 22 3A 22 68 74   ges":[{"url":"ht
+                      74 70 73 3A 2F 2F 69 2E  79 74 69 6D 67 2E 63 6F   tps://i.ytimg.co
+                      6D 2F 76 69 2F 49 61 72  73 72 58 36 30 62 5A 77   m/vi/IarsrX60bZw
+                      2F 68 71 64 65 66 61 75  6C 74 2E 6A 70 67 22 7D   /hqdefault.jpg"}
+                      5D 7D 7D 7D 5D 7D                                  ]}}}]}
+t=21699 [st=21623]  SOCKET_BYTES_RECEIVED
+                    --> byte_count = 33
+                    --> hex_encoded_bytes =
+                      17 03 03 00 1C 00 00 00  00 00 00 02 43 7B 65 62   ... .      .C{eb
+                      BF 51 86 6A FF F8 E6 CE  F2 44 95 73 22 13 FC 35   .Q.j.....D.s"..5
+                      4E                                                 N
+t=21699 [st=21623]  SSL_SOCKET_BYTES_RECEIVED
+                    --> byte_count = 4
+                    --> hex_encoded_bytes =
+                      00 00 00 58                                           X
+t=21703 [st=21627]  SOCKET_BYTES_RECEIVED
+                    --> byte_count = 117
+                    --> hex_encoded_bytes =
+                      17 03 03 00 70 00 00 00  00 00 00 02 44 FF CF 3A   ... p      .D..:
+                      53 29 10 3F E1 24 EA 8E  63 5D 09 0C FD 7B D3 D4   S).?.$..c]...{..
+                      B9 A5 D2 6A F2 FA D6 BC  EB 03 EF 60 DB C1 E8 A1   ...j.......`....
+                      C6 80 E4 59 60 66 1E 13  5B FD 88 37 DD B6 BC A0   ...Y`f..[..7....
+                      27 63 EC 53 99 A3 DF 44  CF BC 48 39 F6 F1 51 17   'c.S...D..H9..Q.
+                      D9 70 FD 00 AB F1 52 67  67 66 A9 F6 9C F6 2A C7   .p. ..Rggf....*.
+                      31 17 F5 18 9F 4E 27 36  76 E9 A4 DC 04 B6 93 C1   1....N'6v.......
+                      5F 74 13 F9 02                                     _t...
+t=21703 [st=21627]  SSL_SOCKET_BYTES_RECEIVED
+                    --> byte_count = 88
+                    --> hex_encoded_bytes =
+                      08 00 12 0B 54 72 40 6E  24 70 30 72 74 2D 30 1A   . ..Tr@n$p0rt-0.
+                      0B 54 72 40 6E 24 70 30  72 74 2D 30 22 27 75 72   .Tr@n$p0rt-0"'ur
+                      6E 3A 78 2D 63 61 73 74  3A 63 6F 6D 2E 67 6F 6F   n:x-cast:com.goo
+                      67 6C 65 2E 63 61 73 74  2E 74 70 2E 68 65 61 72   gle.cast.tp.hear
+                      74 62 65 61 74 28 00 32  0F 7B 22 74 79 70 65 22   tbeat( 2.{"type"
+                      3A 22 50 49 4E 47 22 7D                            :"PING"}
+t=21703 [st=21627]  SSL_SOCKET_BYTES_SENT
+                    --> byte_count = 86
+                    --> hex_encoded_bytes =
+                      00 00 00 52 08 00 12 06  63 68 72 6F 6D 65 1A 0A      R. ..chrome..
+                      72 65 63 65 69 76 65 72  2D 30 22 27 75 72 6E 3A   receiver-0"'urn:
+                      78 2D 63 61 73 74 3A 63  6F 6D 2E 67 6F 6F 67 6C   x-cast:com.googl
+                      65 2E 63 61 73 74 2E 74  70 2E 68 65 61 72 74 62   e.cast.tp.heartb
+                      65 61 74 28 00 32 0F 7B  22 74 79 70 65 22 3A 22   eat( 2.{"type":"
+                      50 4F 4E 47 22 7D                                  PONG"}
+t=21703 [st=21627]  SOCKET_BYTES_SENT
+                    --> byte_count = 115
+                    --> hex_encoded_bytes =
+                      17 03 03 00 6E 00 00 00  00 00 00 01 0D 66 57 BE   ... n      ..fW.
+                      A1 6A DC 9A AE 50 32 4A  B4 DE 7B A9 55 5B 0C 7E   .j...P2J..{.U[.~
+                      BA F9 06 E6 3F EA 38 75  99 82 AE A1 95 64 34 08   ....?.8u.....d4.
+                      B2 D1 80 F5 7C 66 6B 60  2E 37 E9 8B 7E C3 6E 58   ....|fk`.7..~.nX
+                      DA E6 AF 76 28 34 D5 65  D5 9B 91 E8 0D 75 47 F1   ...v(4.e.....uG.
+                      D5 2A 55 66 D0 3A 71 90  06 40 ED EE D9 DD ED 57   .*Uf.:q..@.....W
+                      1D 10 D4 41 52 92 73 5B  47 FD 26 86 4A 67 5F FB   ...AR.s[G.&.Jg_.
+                      C2 84 0B                                           ...

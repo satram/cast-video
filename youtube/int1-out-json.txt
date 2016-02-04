@@ -1,0 +1,247 @@
+{
+  "type": "PING"
+}
+
+{
+  "type": "PONG"
+}
+
+{
+  "type": "LAUNCH",
+  "requestId": 54178007,
+  "appId": "233637DE",
+  "language": "en-US"
+}
+
+{
+  "requestId": 0,
+  "status": {
+    "isActiveInput": true,
+    "isStandBy": false,
+    "volume": {
+      "level": 1.0,
+      "muted": false
+    }
+  },
+  "type": "RECEIVER_STATUS"
+}
+
+{
+  "requestId": 54178007,
+  "status": {
+    "applications": [
+      {
+        "appId": "233637DE",
+        "displayName": "YouTube",
+        "namespaces": [
+          {
+            "name": "urn:x-cast:com.google.youtube.mdx"
+          },
+          {
+            "name": "urn:x-cast:com.google.cast.media"
+          }
+        ],
+        "sessionId": "851AA33F-FDD6-4678-8ED4-97F8F1FE1E14",
+        "statusText": "YouTube",
+        "transportId": "web-4"
+      }
+    ],
+    "isActiveInput": true,
+    "isStandBy": false,
+    "volume": {
+      "level": 1.0,
+      "muted": false
+    }
+  },
+  "type": "RECEIVER_STATUS"
+}
+
+{
+  "type": "CONNECT",
+  "origin": {
+
+  },
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML,like Gecko) Chrome/48.0.2564.97Safari/537.36",
+  "senderInfo": {
+    "sdkType": 2,
+    "version": "15.1120.0.2",
+    "browserVersion": "48.0.2564.97",
+    "platform": 4,
+    "systemVersion": "Macintosh; IntelMac OS X 10_10_5",
+    "connectionType": 1
+  }
+}
+
+{
+  "type": "CONNECT",
+  "origin": {
+
+  },
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML,like Gecko) Chrome/48.0.2564.97Safari/537.36",
+  "senderInfo": {
+    "sdkType": 2,
+    "version": "15.1120.0.2",
+    "browserVersion": "48.0.2564.97",
+    "platform": 4,
+    "systemVersion": "Macintosh; IntelMac OS X 10_10_5",
+    "connectionType": 1
+  }
+}
+
+{
+  "type": "GET_STATUS",
+  "requestId": 54178008
+}
+
+{
+  "type": "MEDIA_STATUS",
+  "status": [
+    {
+      "mediaSessionId": 2108248882,
+      "playbackRate": 1,
+      "supportedMediaCommands": 3,
+      "volume": {
+        "level": 1,
+        "muted": false
+      },
+      "playerState": "IDLE",
+      "customData": {
+        "playerState": -1
+      }
+    }
+  ]
+}
+
+{
+  "type": "MEDIA_STATUS",
+  "status": [
+    {
+      "mediaSessionId": 2108248882,
+      "playbackRate": 1,
+      "supportedMediaCommands": 3,
+      "volume": {
+        "level": 1,
+        "muted": false
+      },
+      "playerState": "IDLE",
+      "customData": {
+        "playerState": -1
+      }
+    }
+  ]
+}
+
+{
+  "type": "MEDIA_STATUS",
+  "requestId": 54178008,
+  "status": [
+    {
+      "mediaSessionId": 2108248882,
+      "playbackRate": 1,
+      "supportedMediaCommands": 3,
+      "volume": {
+        "level": 1,
+        "muted": false
+      },
+      "playerState": "IDLE",
+      "customData": {
+        "playerState": -1
+      }
+    }
+  ]
+}
+
+{
+  "type": "flingVideo",
+  "data": {
+    "videoId": "IarsrX60bZw",
+    "currentTime": 2.240699
+  }
+}
+
+{
+  "type": "getMdxSessionStatus"
+}
+
+{
+  "type": "mdxSessionStatus",
+  "data": {
+    "screenId": "hag2vltsqago5ckl1q967g4bif"
+  }
+}
+
+{
+  "requestId": 0,
+  "status": {
+    "applications": [
+      {
+        "appId": "233637DE",
+        "displayName": "YouTube",
+        "namespaces": [
+          {
+            "name": "urn:x-cast:com.google.youtube.mdx"
+          },
+          {
+            "name": "urn:x-cast:com.google.cast.media"
+          }
+        ],
+        "sessionId": "851AA33F-FDD6-4678-8ED4-97F8F1FE1E14",
+        "statusText": "YouTube TV",
+        "transportId": "web-4"
+      }
+    ],
+    "isActiveInput": true,
+    "isStandBy": false,
+    "volume": {
+      "level": 1.0,
+      "muted": false
+    }
+  },
+  "type": "RECEIVER_STATUS"
+}
+
+{
+  "type": "MEDIA_STATUS",
+  "status": [
+    {
+      "mediaSessionId": 2108248882,
+      "playbackRate": 1,
+      "supportedMediaCommands": 3,
+      "volume": {
+        "level": 1,
+        "muted": false
+      },
+      "playerState": "BUFFERING",
+      "customData": {
+        "playerState": 3
+      },
+      "currentTime": 0,
+      "media": {
+        "contentId": "IarsrX60bZw",
+        "contentType": "x-youtube/video",
+        "customData": {
+          "listId": "RQAGdO5p9s04VL7cvVg3bmoVl-yXxR1CGKCpSQ63PxJGbo3Jx-zx6b-lU6EY9WrNlG5RJHFfYjuGmy2Up1MUpzH3rDW3hQ9ikMSg64x5O2hyqCQEOaGfjI1Wk",
+          "currentIndex": 1
+        },
+        "streamType": "BUFFERED",
+        "metadata": {
+          "metadataType": 0,
+          "title": "Thalli Pogathey - Official Single | Achcham Yenbadhu Madamaiyada| A R Rahman | Lyric Video",
+          "images": [
+            {
+              "url": "https://i.ytimg.com/vi/IarsrX60bZw/hqdefault.jpg"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
+
+{
+  "type": "PING"
+}
+
+{
+  "type": "PONG"
+}
